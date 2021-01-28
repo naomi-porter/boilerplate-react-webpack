@@ -6,10 +6,10 @@ const Nav = (props) => {
       <h1>Nav</h1>
       <ul>
           <li>
-              stuff
+              Home
           </li>
           <li>
-              stuff 2
+              Stored Profiles
           </li>
       </ul>
       </>

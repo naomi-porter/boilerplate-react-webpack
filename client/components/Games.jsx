@@ -6,7 +6,7 @@ const Games = (props) => {
       <>
       {/* <ul>
               <li>
-                  <Link to `/games/{gameName}/>
+                  <Link to `store.steampowered.com/app/{appid}/{gameName}/> - gameName is has space is _
               </li>
           </ul> */}
      
