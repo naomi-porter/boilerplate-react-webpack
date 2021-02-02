@@ -1,8 +1,13 @@
 import React from 'react'
+import {getSatellites} from '../apis/iss'
+import SatelliteListing from './SatelliteListing'
 
 const App = () => {
   return (
-    <h1>React development has begun!</h1>
+    <>
+    <h1>Testing API's</h1>
+    <SatelliteListing />
+    </>
   )
 }
 
