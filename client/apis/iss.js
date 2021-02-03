@@ -7,8 +7,8 @@ export function getSatellites() {
   .then(res => res.body)
 }
 
-getSatellites().then(console.log)
 
-export function getSatellite(id) {
-  
+export function getSatelliteById(id) {
+  return request.get(baseUrl + 'satellites/' + id)
+  .then(res => res.body)
 }
